@@ -7,6 +7,7 @@
 // @version     1.0.0
 // @author      Arden
 // @description 2022/6/27 15:32:38
+// @license     GNU Lesser General Public License v2.1
 // ==/UserScript==
 (function(){
   document.querySelector('html').addEventListener('mousedown', e => {

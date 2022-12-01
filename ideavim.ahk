@@ -18,12 +18,21 @@ isEnglishMode(){
     return result == 0
 }
 
-Escape::{
+; Escape::{
+;     if(!isEnglishMode()){
+;         Send "{Shift}"
+;         Send "{Escape}"
+;     }else{
+;         Send "{Escape}"
+;     }
+; }
+
+CapsLock::{
     if(!isEnglishMode()){
         Send "{Shift}"
         Send "{Escape}"
     }else{
-        Send "{Escape}" 
+        Send "{Escape}"
     }
 }
 
